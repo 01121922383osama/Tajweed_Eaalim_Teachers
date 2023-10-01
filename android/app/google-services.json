@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "177941012432",
+    "project_id": "eaalim-tajweed-13602",
+    "storage_bucket": "eaalim-tajweed-13602.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177941012432:android:3d71e27fe0717cdfe223d5",
+        "android_client_info": {
+          "package_name": "com.example.eaalim_tajweed"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdxi90xQOiOvWlYWXDujtPjiJRxxcfRSk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
