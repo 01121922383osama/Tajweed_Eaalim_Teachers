@@ -1,10 +1,10 @@
-import 'package:eaalim_tajweed/Views/HamazahAlwasl/FaaAliasma/widgets/fee_alasmaa_widget.dart';
-import 'package:eaalim_tajweed/Views/HamazahAlwasl/FeeAlhuruf/fee_alhuruf_screen.dart';
-import 'package:eaalim_tajweed/Views/HamazahAlwasl/FeeAliafeal/fee_aliafeal_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../../../constants/core/app_images.dart';
 import '../../../constants/widgets/build_list_grid.dart';
+import '../FaaAliasma/widgets/fee_alasmaa_widget.dart';
+import '../FeeAlhuruf/fee_alhuruf_screen.dart';
+import '../FeeAliafeal/fee_aliafeal_screen.dart';
 
 class HamazahAlwaslPage extends StatefulWidget {
   const HamazahAlwaslPage({super.key});
@@ -18,7 +18,7 @@ class HamazahAlwaslPageState extends State<HamazahAlwaslPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('HamazahAlwasl'),
+        title: const Text('همزه الوصل'),
       ),
       body: Column(
         children: [
@@ -50,9 +50,9 @@ class HamazahAlwaslPageState extends State<HamazahAlwaslPage> {
 }
 
 List<String> _pages = [
-  'FaaAlhuruf',
-  'FaaAliafeal',
-  'FaaAliasma',
+  'في الحروف',
+  'في الأفعال',
+  'في الأسماء',
 ];
 
 List<Widget> _pageNavigation = [

@@ -11,7 +11,7 @@ class ALeqlabPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('ALeqlab'),
+        title: const Text('الإقلاب'),
       ),
       body: Column(
         children: [

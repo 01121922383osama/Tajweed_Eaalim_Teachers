@@ -1,5 +1,6 @@
-import '../core/app_colors.dart';
 import 'package:flutter/material.dart';
+
+import '../core/app_colors.dart';
 
 Widget buildListTile(BuildContext context,
     {required String title, IconData? iconData, void Function()? onTap}) {

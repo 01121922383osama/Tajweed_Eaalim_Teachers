@@ -1,10 +1,10 @@
-import 'package:eaalim_tajweed/Views/AlmimAlsaakinah/AlekhafaaAlshafway/al_ekhfaa_alshafwy_screen.dart';
-import 'package:eaalim_tajweed/Views/AlmimAlsaakinah/AzharShafaween/azhar_shafwy_screen.dart';
-import 'package:eaalim_tajweed/Views/AlmimAlsaakinah/IdghamAlmithlayn/idgham_almathleen_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../../../constants/core/app_images.dart';
 import '../../../constants/widgets/build_list_grid.dart';
+import '../AlekhafaaAlshafway/al_ekhfaa_alshafwy_screen.dart';
+import '../AzharShafaween/azhar_shafwy_screen.dart';
+import '../IdghamAlmithlayn/idgham_almathleen_screen.dart';
 
 class AlmimAlsaakinahPage extends StatefulWidget {
   const AlmimAlsaakinahPage({super.key});
@@ -18,7 +18,7 @@ class _AlmimAlsaakinahPageState extends State<AlmimAlsaakinahPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Alraaalmufakhamuh'),
+        title: const Text('الميم الساكنه'),
       ),
       body: Column(
         children: [
@@ -50,9 +50,9 @@ class _AlmimAlsaakinahPageState extends State<AlmimAlsaakinahPage> {
 }
 
 List<String> _pages = [
-  'AlekhafaaAlshafway',
-  'AzharShafaween',
-  'IdghamAlmithlayn',
+  'الإخفاء الشفوي',
+  'الإظهار الشفوي',
+  'إضغام المثلين',
 ];
 
 List<Widget> _pageNavigation = [

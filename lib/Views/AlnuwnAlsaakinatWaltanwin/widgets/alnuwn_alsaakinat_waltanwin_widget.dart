@@ -1,11 +1,11 @@
-import 'package:eaalim_tajweed/Views/AlnuwnAlsaakinatWaltanwin/ALeqlab/aleqlab_screen.dart';
-import 'package:eaalim_tajweed/Views/AlnuwnAlsaakinatWaltanwin/ALidgham/widgets/alidghma_widget.dart';
-import 'package:eaalim_tajweed/Views/AlnuwnAlsaakinatWaltanwin/ALiikhfa/aliikhfa_screen.dart';
-import 'package:eaalim_tajweed/Views/AlnuwnAlsaakinatWaltanwin/Alaizihar/alaizihar_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../../../constants/core/app_images.dart';
 import '../../../constants/widgets/build_list_grid.dart';
+import '../ALeqlab/aleqlab_screen.dart';
+import '../ALidgham/widgets/alidghma_widget.dart';
+import '../ALiikhfa/aliikhfa_screen.dart';
+import '../Alaizihar/alaizihar_screen.dart';
 
 class AlnuwnAlsaakinatWaltanwinPage extends StatefulWidget {
   const AlnuwnAlsaakinatWaltanwinPage({super.key});
@@ -21,7 +21,7 @@ class AlnuwnAlsaakinatWaltanwintate
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('AlnuwnAlsaakinatWaltanwin'),
+        title: const Text('النون الساكنه والتنوين'),
       ),
       body: Column(
         children: [
@@ -53,10 +53,10 @@ class AlnuwnAlsaakinatWaltanwintate
 }
 
 List<String> _pages = [
-  'ALeqlab',
-  'ALidgham',
-  'ALiikhfa',
-  'Alaizihar',
+  'الإقلاب',
+  'الإدغام',
+  'الإخفاء',
+  'الإظهار',
 ];
 
 List<Widget> _pageNavigation = [

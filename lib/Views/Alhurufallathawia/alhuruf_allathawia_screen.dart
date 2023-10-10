@@ -1,7 +1,8 @@
+import 'package:flutter/material.dart';
+
 import '../../Customs/custom_audio_files.dart';
 import '../../Customs/custom_vedio_files.dart';
 import '../../constants/core/custtom_screen.dart';
-import 'package:flutter/material.dart';
 
 class AlhurufallathawiaPage extends StatelessWidget {
   const AlhurufallathawiaPage({super.key});
@@ -10,7 +11,7 @@ class AlhurufallathawiaPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Allaamatalqamaria'),
+        title: const Text('الحروف اللثويه'),
       ),
       body: Column(
         children: [

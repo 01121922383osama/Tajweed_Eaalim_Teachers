@@ -16,7 +16,7 @@ class _AllaamatalqamariaPageState extends State<AllaamatalqamariaPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Allaamatalqamaria'),
+        title: const Text('اللامات'),
       ),
       body: Column(
         children: [
@@ -29,7 +29,7 @@ class _AllaamatalqamariaPageState extends State<AllaamatalqamariaPage> {
                   children: [
                     buildListGridView(
                       context,
-                      text: 'Allaamatalqamaria',
+                      text: 'اللامات القمريه',
                       onTap: () {
                         Navigator.of(context).push(MaterialPageRoute(
                             builder: (context) => const AllamatAlQamrya()));
@@ -38,7 +38,7 @@ class _AllaamatalqamariaPageState extends State<AllaamatalqamariaPage> {
                     ),
                     buildListGridView(
                       context,
-                      text: 'Allaamatalshamsia',
+                      text: 'اللامات الشمسيه',
                       onTap: () {
                         Navigator.of(context).push(MaterialPageRoute(
                             builder: (context) => const Allaamatalshamsia()));

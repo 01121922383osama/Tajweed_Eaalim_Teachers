@@ -11,7 +11,7 @@ class AlmimAlmushadaduhPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('AlmimAlmushadaduh'),
+        title: const Text('الميم المشدده'),
       ),
       body: Column(
         children: [

@@ -10,7 +10,7 @@ class AllamatAlQamrya extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Allaamatalqamaria'),
+        title: const Text('اللامات القمريه'),
       ),
       body: Column(
         children: [

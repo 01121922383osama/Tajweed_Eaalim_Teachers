@@ -1,6 +1,7 @@
-import '../constants/core/custtom_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
+
+import '../constants/core/custtom_screen.dart';
 
 Widget customLottieImage({required String image}) {
   return Lottie.asset(image);

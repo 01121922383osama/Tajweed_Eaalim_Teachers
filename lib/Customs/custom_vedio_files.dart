@@ -26,7 +26,9 @@ class CustomVideoPage extends StatelessWidget {
               } else {
                 return const Center(
                     child: Text(
-                        "Error: Video initialization failed, Please restart your application"));
+                        '''Error: Video initialization failed, Please restart your application
+                        خطا في التحميل يرجي اعده تشغيل التطبيق
+                        '''));
               }
             } else if (snapshot.hasError) {
               return Center(child: Text("Error: ${snapshot.error}"));

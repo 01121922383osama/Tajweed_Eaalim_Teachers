@@ -11,7 +11,7 @@ class AlmaduAleawadPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('AlmaduAleawad'),
+        title: const Text('المد العوض'),
       ),
       body: Column(
         children: [
@@ -25,7 +25,7 @@ class AlmaduAleawadPage extends StatelessWidget {
           ),
           const Expanded(
             child: CustomAudiosFiles(
-              firstbucket: 'AlmaduAleawad',
+              firstbucket: 'Almodood',
               secondbucket: 'AlmaduAleawad',
             ),
           ),

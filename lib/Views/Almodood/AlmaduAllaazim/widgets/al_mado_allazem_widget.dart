@@ -1,11 +1,11 @@
-import 'package:eaalim_tajweed/Views/Almodood/AlmaduAllaazim/AlharfiAlmukhafaf/alharfi_almukhafaf_screen.dart';
-import 'package:eaalim_tajweed/Views/Almodood/AlmaduAllaazim/AlharfiuAlmuthqal/alharfiu_almuthqal_screen.dart';
-import 'package:eaalim_tajweed/Views/Almodood/AlmaduAllaazim/AlkalamiuAlmathqal/alkalamiu_almathqal_screen.dart';
-import 'package:eaalim_tajweed/Views/Almodood/AlmaduAllaazim/AlkalamiuAlmukhafaf/alkalamiu_almukhafaf_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../constants/core/app_images.dart';
 import '../../../../constants/widgets/build_list_grid.dart';
+import '../AlharfiAlmukhafaf/alharfi_almukhafaf_screen.dart';
+import '../AlharfiuAlmuthqal/alharfiu_almuthqal_screen.dart';
+import '../AlkalamiuAlmathqal/alkalamiu_almathqal_screen.dart';
+import '../AlkalamiuAlmukhafaf/alkalamiu_almukhafaf_screen.dart';
 
 class AlmaduAllaazim extends StatefulWidget {
   const AlmaduAllaazim({super.key});
@@ -19,7 +19,7 @@ class _AlmaduAllaazimState extends State<AlmaduAllaazim> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Almodood'),
+        title: const Text('المد اللازم'),
       ),
       body: Column(
         children: [
@@ -51,10 +51,10 @@ class _AlmaduAllaazimState extends State<AlmaduAllaazim> {
 }
 
 List<String> _pages = [
-  'AlharfiAlmukhafaf',
-  'AlharfiuAlmuthqal',
-  'AlkalamiuAlmathqal',
-  'AlkalamiuAlmukhafaf',
+  'الحروف المخففه',
+  'الحروف المثقله',
+  'الكلام المثقل',
+  'الكلام المخفف',
 ];
 
 List<Widget> _pageNavigation = [

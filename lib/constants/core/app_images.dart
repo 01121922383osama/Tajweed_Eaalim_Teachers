@@ -9,6 +9,8 @@ class AppImages {
   static final start = '$baseImages/start.png';
   static final women = '$baseImages/women.png';
   static final sebha = '$baseImages/sebha.png';
+  static final backgroundGrawer = '$baseImages/backgrounddrawer.png';
+  static final splashScreen = '$baseImages/splashscreen.png';
 }
 
 class AppLottieImage {

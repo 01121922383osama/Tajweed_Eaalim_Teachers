@@ -1,10 +1,10 @@
-import '../Alraaalmufakhamuh/alraa_almufakhamuh.dart';
-import '../Rayajuzfihaalwajhan/raa_yjooz_fiha_alwghan_screen.dart';
-import '../../../constants/core/app_images.dart';
-import '../../../constants/widgets/build_list_grid.dart';
 import 'package:flutter/material.dart';
 
+import '../../../constants/core/app_images.dart';
+import '../../../constants/widgets/build_list_grid.dart';
+import '../Alraaalmufakhamuh/alraa_almufakhamuh.dart';
 import '../Alraaalmuraqaqa/raa_almurqaqa_screen.dart';
+import '../Rayajuzfihaalwajhan/raa_yjooz_fiha_alwghan_screen.dart';
 
 class AlraaalmufakhamuhPage extends StatefulWidget {
   const AlraaalmufakhamuhPage({super.key});
@@ -18,7 +18,7 @@ class _AlraaalmufakhamuhPageState extends State<AlraaalmufakhamuhPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Alraaalmufakhamuh'),
+        title: const Text('الراء'),
       ),
       body: Column(
         children: [
@@ -50,9 +50,9 @@ class _AlraaalmufakhamuhPageState extends State<AlraaalmufakhamuhPage> {
 }
 
 List<String> _pages = [
-  'Alraaalmufakhamuh',
-  'Alraaalmuraqaqa',
-  'Rayajuzfihaalwajhan',
+  'الراء المفخمه',
+  'الراء المرققه',
+  'راء يجوز فيها الوجهان',
 ];
 
 List<Widget> _pageNavigation = [

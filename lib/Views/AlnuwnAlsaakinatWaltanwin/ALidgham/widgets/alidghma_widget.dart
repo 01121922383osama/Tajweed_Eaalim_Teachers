@@ -1,5 +1,5 @@
-import 'package:eaalim_tajweed/Views/AlnuwnAlsaakinatWaltanwin/ALidgham/AlidghamBeghnah/aLidgham_bighina_screen.dart';
-import 'package:eaalim_tajweed/Views/AlnuwnAlsaakinatWaltanwin/ALidgham/AlidghamBelaGhonah/aLidgham_bilaghunah_screen.dart';
+import '../AlidghamBeghnah/aLidgham_bighina_screen.dart';
+import '../AlidghamBelaGhonah/aLidgham_bilaghunah_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../constants/core/app_images.dart';
@@ -17,7 +17,7 @@ class AlnuwnAlsaakinatWaltanwintate extends State<ALidghamPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('ALidgham'),
+        title: const Text('الإدغام'),
       ),
       body: Column(
         children: [
@@ -49,8 +49,8 @@ class AlnuwnAlsaakinatWaltanwintate extends State<ALidghamPage> {
 }
 
 List<String> _pages = [
-  'ALidghamBighina',
-  'ALidghamBilaghuna',
+  'الإدغام بغنه',
+  'الإدغام بلا غنه',
 ];
 
 List<Widget> _pageNavigation = [

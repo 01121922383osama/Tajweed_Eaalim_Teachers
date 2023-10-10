@@ -1,18 +1,18 @@
-import 'package:eaalim_tajweed/Views/Almodood/AlmaduAlbadal/almadu_albadal_screen.dart';
-import 'package:eaalim_tajweed/Views/Almodood/AlmaduAlearidLilsukun/almadu_alearid_alilsaken-screen.dart';
-import 'package:eaalim_tajweed/Views/Almodood/AlmaduAleawad/almadu_aleawad_screen.dart';
-import 'package:eaalim_tajweed/Views/Almodood/AlmaduAljayizAlmunfasil/almadu_aljayiz_almunfasil_screen.dart';
-import 'package:eaalim_tajweed/Views/Almodood/AlmaduAllaazim/widgets/al_mado_allazem_widget.dart';
-import 'package:eaalim_tajweed/Views/Almodood/AlmaduAlliyn/almadu_alliyn_screen.dart';
-import 'package:eaalim_tajweed/Views/Almodood/AlmaduAlmunfasil/almadu_almunfasil_screen.dart';
-import 'package:eaalim_tajweed/Views/Almodood/AlmaduAlsiluhAlkubraa/almadu_alsiluh_alkubraa_screen.dart';
-import 'package:eaalim_tajweed/Views/Almodood/AlmaduAltabieaa/almadu_altabieaa_screen.dart';
-import 'package:eaalim_tajweed/Views/Almodood/AlmaduAlwajibAlmutasil/almadu_alwajib_almutasil_screen.dart';
-import 'package:eaalim_tajweed/Views/Almodood/AlmaduSIlahSughraa/almadu_silah_sughraa_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../../../constants/core/app_images.dart';
 import '../../../constants/widgets/build_list_grid.dart';
+import '../AlmaduAlbadal/almadu_albadal_screen.dart';
+import '../AlmaduAlearidLilsukun/almadu_alearid_alilsaken_screen.dart';
+import '../AlmaduAleawad/almadu_aleawad_screen.dart';
+import '../AlmaduAljayizAlmunfasil/almadu_aljayiz_almunfasil_screen.dart';
+import '../AlmaduAllaazim/widgets/al_mado_allazem_widget.dart';
+import '../AlmaduAlliyn/almadu_alliyn_screen.dart';
+import '../AlmaduAlmunfasil/almadu_almunfasil_screen.dart';
+import '../AlmaduAlsiluhAlkubraa/almadu_alsiluh_alkubraa_screen.dart';
+import '../AlmaduAltabieaa/almadu_altabieaa_screen.dart';
+import '../AlmaduAlwajibAlmutasil/almadu_alwajib_almutasil_screen.dart';
+import '../AlmaduSIlahSughraa/almadu_silah_sughraa_screen.dart';
 
 class AlmodoodPage extends StatefulWidget {
   const AlmodoodPage({super.key});
@@ -26,7 +26,7 @@ class _AlmodoodPageState extends State<AlmodoodPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Almodood'),
+        title: const Text('المدود'),
       ),
       body: Column(
         children: [
@@ -58,17 +58,17 @@ class _AlmodoodPageState extends State<AlmodoodPage> {
 }
 
 List<String> _pages = [
-  'AlmaduAlbadal',
-  'AlmaduAlearidLilsukun',
-  'AlmaduAleawad',
-  'AlmaduAljayizAlmunfasil',
-  'AlmaduAllaazim',
-  'AlmaduAlliyn',
-  'AlmaduAlmunfasil',
-  'AlmaduAlsiluhAlkubraa',
-  'AlmaduAltabieaa',
-  'AlmaduAlwajibAlmutasil',
-  'AlmaduSIlahSughraa',
+  'المد البدل',
+  'المد العارض للسكون',
+  'المد العوض',
+  'المد الجائز المنفصل',
+  'المد اللازم',
+  'المد اللين',
+  'المد المنفصل',
+  'المد الصله الكبري',
+  'المد الطبيعي',
+  'المد الواجب المتصل',
+  'المد الصله الصغري',
 ];
 
 List<Widget> _pageNavigation = [

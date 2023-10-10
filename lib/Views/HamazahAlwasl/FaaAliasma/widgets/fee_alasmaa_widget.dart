@@ -1,9 +1,9 @@
-import 'package:eaalim_tajweed/Views/HamazahAlwasl/FaaAliasma/Madmumuh/madmumuh_screen.dart';
-import 'package:eaalim_tajweed/Views/HamazahAlwasl/FaaAliasma/Maksuruh/maksurah_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../constants/core/app_images.dart';
 import '../../../../constants/widgets/build_list_grid.dart';
+import '../Madmumuh/madmumuh_screen.dart';
+import '../Maksuruh/maksurah_screen.dart';
 
 class FeeAliasmaPage extends StatefulWidget {
   const FeeAliasmaPage({super.key});
@@ -17,7 +17,7 @@ class FeeAliasmaPageState extends State<FeeAliasmaPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('FeeAlasmaa'),
+        title: const Text('في الأسماء'),
       ),
       body: Column(
         children: [
@@ -49,8 +49,8 @@ class FeeAliasmaPageState extends State<FeeAliasmaPage> {
 }
 
 List<String> _pages = [
-  'Madmumuh',
-  'Maksuruh',
+  'مضمومة',
+  'مكسورة',
 ];
 
 List<Widget> _pageNavigation = [

@@ -1,15 +1,15 @@
 import 'dart:async';
 
+import 'package:flutter/material.dart';
+
 import '../../App/app_routs.dart';
 import '../../App/global.dart';
 import '../../Customs/custom_lottie_image.dart';
 import '../../constants/core/app_colors.dart';
-import '../../constants/core/custtom_screen.dart';
-import '../../constants/widgets/base_text.dart';
-import 'package:flutter/material.dart';
-
 import '../../constants/core/app_images.dart';
 import '../../constants/core/app_names.dart';
+import '../../constants/core/custtom_screen.dart';
+import '../../constants/widgets/base_text.dart';
 import '../../constants/widgets/navigator.dart';
 
 class SplashPage extends StatefulWidget {
