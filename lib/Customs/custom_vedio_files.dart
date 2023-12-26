@@ -27,7 +27,7 @@ class CustomVideoPage extends StatelessWidget {
                 return const Center(
                     child: Text(
                         '''Error: Video initialization failed, Please restart your application
-                        خطا في التحميل يرجي اعده تشغيل التطبيق
+                        خطا في التحميل يرجي إعاده تشغيل التطبيق
                         '''));
               }
             } else if (snapshot.hasError) {
