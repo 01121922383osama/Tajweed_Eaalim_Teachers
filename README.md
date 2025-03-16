@@ -11,10 +11,17 @@
 ---
 
 ## 🌟 Features
-- 🕌 **Quran Reader**: Multiple fonts, translations, and audio playback.
+- 🕌 **Tajweed Reader**: Multiple fonts, translations, and audio playback.
 - 📿 **Sebha Tracker**: Digital prayer counter with customizable designs.
 - 🎧 **Audio Player**: Recitations by famous Shaykhs.
 - 📺 **Video Player**: Video recitations by famous Shaykhs.
+
+---
+
+## 📹 **Video Preview**
+<p align="center">
+  <img src="Readme/record.gif" width="300" alt="Video Preview">
+</p>
 
 ---
 
