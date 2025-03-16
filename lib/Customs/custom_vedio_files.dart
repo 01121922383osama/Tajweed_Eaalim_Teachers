@@ -7,7 +7,7 @@ import 'package:video_player/video_player.dart';
 
 class CustomVideoPage extends StatelessWidget {
   final String? videoUrl;
-  const CustomVideoPage({Key? key, this.videoUrl}) : super(key: key);
+  const CustomVideoPage({super.key, this.videoUrl});
 
   @override
   Widget build(BuildContext context) {

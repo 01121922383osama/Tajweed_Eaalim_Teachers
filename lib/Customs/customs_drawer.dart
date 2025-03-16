@@ -22,7 +22,7 @@ class CusttomDrawer extends StatelessWidget {
       child: ListView(
         children: [
           SizedBox(
-            height: CustomMediaQuery(context).screenWidth / 2.5,
+            height: CustomMediaQuery(context).screenWidth / 2.4,
             child: Column(
               children: [
                 Padding(

@@ -1,15 +1,15 @@
 import 'package:dots_indicator/dots_indicator.dart';
-import '../../App/app_routs.dart';
-import '../../constants/core/app_images.dart';
-import '../../constants/core/custtom_screen.dart';
-import '../../constants/widgets/base_text.dart';
-import '../../constants/widgets/navigator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+import '../../App/app_routs.dart';
 import '../../App/global.dart';
 import '../../constants/core/app_colors.dart';
+import '../../constants/core/app_images.dart';
+import '../../constants/core/custtom_screen.dart';
 import '../../constants/values/app_constant.dart';
+import '../../constants/widgets/base_text.dart';
+import '../../constants/widgets/navigator.dart';
 import '../../controller/Welcome Bloc/welcome_cubit.dart';
 
 class WelcomePage extends StatefulWidget {
@@ -74,7 +74,7 @@ class _WelcomePageState extends State<WelcomePage> {
                   Positioned(
                     bottom: CustomMediaQuery(context).screenHeight / 15,
                     child: DotsIndicator(
-                      position: state.index,
+                      position: state.index.toDouble(),
                       dotsCount: 3,
                       mainAxisAlignment: MainAxisAlignment.center,
                       decorator: DotsDecorator(
