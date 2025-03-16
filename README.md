@@ -38,4 +38,5 @@
 - Flutter & Dart
 - State Management: Bloc Pattern
 - Audio: JustAudio, AudioService
+- Video: VideoPlayer
 ```
